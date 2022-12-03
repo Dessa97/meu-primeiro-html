@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeiros passos com HTML</title>
+  </head>
+  <body>
+    <strong>
+      <font face="arial" size="5" color="red">
+        Introdução ao <i>HTML</i> na Prática
+      </font>
+    </strong>
+    <hr/>
+    <h2 id="Tópicos"><strong>Tópicos</strong></h2>
+    <ol>
+      <li><a href="#Ferramentas">Ferramentas Utilizadas</a></li>
+      <li><a href="#Inspetor">Inspetor de Elementos</a></li>
+      <li>
+        <a href="#Estrutura">Estrutura Básica do <i>HTML</i></a>
+      </li>
+      <li>
+        <a href="#Falando sobre">Falando Sobre <i>Tags</i></a>
+      </li>
+      <li>
+        <a href="#Atributos">Atributos das <i>Tags</i></a>
+      </li>
+      <li><a href="#textos">Textos</a></li>
+      <li><a href="#Listas">Listas Ordenadas e Não Ordenadas</a></li>
+      <li>
+        <a href="#Links"><i>Links</i></a>
+      </li>
+    </ol>
+    <h2 id="Ferramentas"><strong>Ferramentas Utilizadas</strong></h2>
+    <p>
+      Para o desenvolvimento deste código <i>HTML</i>, foi utilizado o programa
+      <i>“Visual Studio Code”</i> para a escrita do <i>HTML</i> , junto com a
+      extensão <i>“Live Server”,</i> que permite abrir o código no navegador e
+      verificar o resultado.
+    </p>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Inspetor"><strong>Inspetor de Elementos</strong></h2>
+    <p>
+      Em qualquer site é possível verificar a estrutura do <i>HTML</i>. Para
+      isso, basta usar a tecla <strong>F12</strong> no site, ou usar o botão
+      direito e selecionar a opção <i>“Inspecionar”</i>. No menu da estrutura do
+      <i>HTML</i> tem a função
+      <i>“Select an element in the page to inspect it"</i>
+      <strong>(CTRL+SHIFT+C)</strong>, que permite que selecionar uma área
+      específica do site, e verificar sua estrutura.
+    </p>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Estrutura">
+      <strong>Estrutura Básica do<i> HTML</i></strong>
+    </h2>
+    <p>A estrutura básica do <i>HTML</i> é composta por 3 <i>tags</i>:</p>
+    <ul>
+      <li>
+        <i><strong>< HTML > < /HTML ></strong></i> - Tudo que estiver entre essa
+        <i>tag</i>, será entendido pelo navegador como um <i>HTML.</i>
+      </li>
+      <li>
+        <strong>< Head > < /Head ></strong> - São as informações pré carregadas
+        para o usuário, como o título que irá aparacer na aba da página do
+        navegador.
+      </li>
+      <li>
+        <strong>< Body > < /Body ></strong> - É todo o contéudo que irá aparacer
+        na página do navegador para o usuário, como textos, imagens, etc.
+      </li>
+    </ul>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Falando sobre">
+      <strong>Falando Sobre <i>Tags</i></strong>
+    </h2>
+    <p>
+      As <i>tags HTML</i> são utilizados para informar ao navegador que tipo de
+      estrutura está sendo construída, podendo ser títulos, parágrafos, imagens,
+      <i>links</i>, etc. Normalmente, as <i>tags</i> são compostas por abertura
+      <strong> < > </strong> e fechamento <strong> < / > </strong>. Abaixo
+      alguns exemplos de <i>tags</i>:
+    </p>
+    <ul>
+      <li><strong>< i ></strong><i> Itálico</i><strong> < / i > </strong></li>
+      <li>
+        <strong>< strong ><strong> Negrito </strong>< / strong ></strong>
+      </li>
+      <li>
+        <strong>< input type: "text" ></strong> Cria um campo de digtitação de
+        texto e <strong>< input type: "number" ></strong> cria um campo de
+        digitação númerico: <input type="text" /> (<strong
+          ><abbr title="observação">obs</abbr></strong
+        >: essa tag não tem fechamento).
+      </li>
+    </ul>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Atributos">
+      <strong>Atributos das <i>Tags</i></strong>
+    </h2>
+    <p>
+      Atributos são informações que passamos na <i>Tag</i> para que ela se
+      comporte da maneira esperada. Existem atributos globais (que funcionam em
+      todas as <i>Tags</i>, como: Id, Style e Class) e específicos (que são
+      direcionados para cada <i>Tag</i>, através de especificação, como: Type
+      para a <i>tag</i> input, e src e width para a <i>tag</i> img).
+    </p>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Textos"><strong>Textos</strong></h2>
+    <p>As principais <i>tags</i> para textos são:</p>
+    <ul>
+      <li>
+        <strong>< h1 >, < h2 >, < h3 >, < h4 >, < h5 > e < h6 >:</strong>
+        Determinam o tamanho dos títulos e subtítulos, sendo
+        <strong>h1</strong> o maior e <strong>h6</strong> o menor.
+      </li>
+      <li><strong>< p ></strong> Parágrafo <strong>< / p ></strong></li>
+      <li>
+        <strong>< blockquote ></strong>
+        <blockquote>Citação, observação</blockquote>
+        <strong> < / blockquote ></strong>
+      </li>
+      <li><strong>< u ></strong><u>Sublinhado </u><strong>< / u ></strong></li>
+      <li>
+        <strong>< mark > </strong><mark> Marca texto </mark>
+        <strong>< / mark ></strong>
+      </li>
+      <li>
+        <strong>< sup ></strong><sup> Sobrescrito </sup>
+        <strong> < / sup > </strong>
+      </li>
+      <li>
+        <strong>< sub ></strong><sub> Subscrito </sub>
+        <strong> < / sub ></strong>
+      </li>
+      <li>
+        <strong>< del ></strong><del> Texto excluído </del>
+        <strong> < / del ></strong>
+      </li>
+    </ul>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Listas"><strong>Listas Ordenadas e Não Ordenadas</strong></h2>
+    <ul>
+      <li>
+        <p>
+          As <strong>Listas Ordenadas </strong>seguem uma sequencia númerica:
+        </p>
+      </li>
+    </ul>
+    <p>
+      <strong>< ol > < / ol > </strong>junto com a <i>tag</i> "filha"
+      <strong>< li > < / li ></strong>
+    </p>
+    <p>Ex:</p>
+    <ol>
+      <li>Linha A</li>
+      <li>Linha B</li>
+      <li>Linha C</li>
+    </ol>
+    <ul>
+      <li>
+        <p>As <strong>Listas Não Ordenadas</strong> utilizam marcadores:</p>
+      </li>
+    </ul>
+    <p>
+      <strong>< ul > < / ul > </strong>junto com a <i>tag</i> "filha"<strong
+        >< li > < / li ></strong
+      >
+    </p>
+    <p>Ex:</p>
+    <ul>
+      <li>Linha A</li>
+      <li>Linha B</li>
+      <li>Linha C</li>
+    </ul>
+    <p>
+      <strong><abbr title="observação"> obs</abbr></strong
+      >: Tanto nas <strong>Listas Ordenadas</strong>, como nas
+      <strong>Não Ordenadas</strong>, todas as linhas precisam usar a
+      <i>tag</i> <strong>< li ></strong> <strong>< /li ></strong>
+    </p>
+    <a href="#Tópicos"><small>Voltar</small></a>
+    <h2 id="Links">
+      <strong><i>Links</i></strong>
+    </h2>
+    <p>
+      A <i>tag</i> para adicionar <i> links</i> é escrita da seguinte forma:
+      <strong>< a href = "Link do site" > "nome do link" < / a > </strong>. Essa
+      <i>tag</i> possuí atributos como: Targer e title. Além disso, é possível
+      colocar o nome de outras pagínas do próprio site como <i>link.</i>
+    </p>
+    <a href="#Tópicos"><small>Voltar</small></a>
+  </body>
+</html>
